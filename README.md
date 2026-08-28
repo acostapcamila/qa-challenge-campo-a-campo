@@ -79,7 +79,7 @@ cypress.config.ts        # Config + variables de entorno
   `Authorization: Bearer <token>` para el resto de los requests.
 - Los productos del carrito salen dinámicamente de `GET /products`, no son fijos.
 - En cada endpoint valido el **código HTTP + estructura + tipos de datos** con el helper `validar`.
-- Ojo con el **DELETE**: Fake Store API es un backend simulado y no guarda los carritos que
+-**DELETE**: Fake Store API es un backend simulado y no guarda los carritos que
   creás con `POST`, así que al borrar uno recién creado devuelve `200` con body `null`. Por eso
   ese paso valida solo el código HTTP.
 
