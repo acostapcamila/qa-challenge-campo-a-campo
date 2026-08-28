@@ -1,0 +1,21 @@
+{
+  "name": "qa-challenge-cypress",
+  "version": "1.0.0",
+  "description": "qa challenge campo a campo",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "test:api": "cypress run --spec cypress/e2e/api.cy.ts",
+    "test:ui": "cypress run --spec cypress/e2e/compras.cy.ts",
+    "cy:open": "cypress open"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "camila acosta",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/mocha": "^10.0.10",
+    "cypress": "^15.21.1"
+  }
+}
