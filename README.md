@@ -89,3 +89,4 @@ cypress.config.ts        # Config + variables de entorno
   usuario `standard_user`.
 - Los selectores están todos en `cypress/locators/locators.ts` para que sea fácil de mantener.
 - Valido cantidad de productos, nombres, precios individuales y el mensaje final de compra.
+# qa-challenge-cypress
